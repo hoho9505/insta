@@ -2,6 +2,8 @@
   width:100% ;
   display : flex;
   justify-content : space-between;
+  align-items: center;
+  padding: 15px 10px;
 }
 
 .user_imgID
@@ -9,4 +11,31 @@
   display:flex;
   justify-content:center;
   align-items:center;
+}
+
+.article_img
+{
+  width:610px;
+  margin-bottom : 20px;
+}
+
+.contents_comment span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.contents_reply
+{
+  width : 540px;
+  padding 10px 0;
+  border : none;
+  font-size : 14px;
+}
+
+.content_submit
+{
+  color : #c0dffd;
+  font-weight : 600;
+  font-size : 16px;
+  float : right;
 }
