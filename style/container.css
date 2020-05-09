@@ -1,0 +1,27 @@
+.container{
+  display : flex;
+
+  justify-content : center;
+  padding-top : 70px;
+}
+
+.container_recommend
+{
+  width:320px;
+  border : 1px solid gray;
+}
+
+.container_contents
+{
+  width:610px;
+  padding : 10px;
+  border : 1px solid gray;
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : center;
+}
+
+* {
+  box-sizing: border-box;
+}
