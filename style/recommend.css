@@ -1,6 +1,13 @@
-#container__recommend
+@media(max-width:980px) {
+  .container__recommend {
+    display : none;
+  }
+
+.container__recommend
 {
   position : fixed;
+  top : 100px;
+  right : 200px;
 }
 
 .recommend__user {
