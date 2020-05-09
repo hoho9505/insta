@@ -6,6 +6,11 @@
   padding: 15px 10px;
 }
 
+.user_name
+{
+  margin-left : 5px;
+}
+
 .user_imgID
 {
   display:flex;
@@ -19,10 +24,30 @@
   margin-bottom : 20px;
 }
 
+.contents_comment
+{margin-left: 20px;
+  margin-top : 10px;
+  align-self: start;
+  font-size : 16px;
+}
+
+.contents_comment1
+{
+  margin-left: 20px;
+    align-self: start;
+    font-size : 16px;
+}
+
 .contents_comment span {
   font-weight: 600;
   margin-right: 5px;
 }
+
+.contents_comment1 span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
 
 .contents_reply
 {
@@ -30,6 +55,8 @@
   padding 10px 0;
   border : none;
   font-size : 14px;
+  border:none;
+
 }
 
 .content_submit
@@ -38,4 +65,30 @@
   font-weight : 600;
   font-size : 16px;
   float : right;
+}
+
+.contents_icon
+{
+  font-size : 18px;
+  align-self: start;
+  margin-left: 20px;
+}
+
+.contents_icon i
+{
+  margin-right : 10px;
+  margin-bottom : 15px;
+}
+
+.contents_like
+{
+  margin-left: 20px;
+  align-self: start;
+}
+
+.contents_replymore
+{
+  color: darkblue;
+  align-self : start;
+  margin-left : 20px;
 }
