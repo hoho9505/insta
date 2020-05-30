@@ -3,13 +3,10 @@ const modal = document.querySelector(".modal");
 const modalList = document.querySelector(".modal_tags");
 const gear = document.querySelector(".gear");
 const bg = document.querySelector(".bg");
-
-function scrollDisable(){
-    $('html, body').addClass('hidden');
-}
-function scrollAble(){
-    $('html, body').removeClass('hidden');
-}
+const cancelBtn = document.querySelector(".cancelbox");
+const recommend = document.querySelector(".container__recommend");
+const header = document.querySelector(".header");
+const body = document.querySelector("body");
 
 function handleClick(){
   if(modal.classList.contains("hide"))
@@ -24,7 +21,7 @@ function handleClick(){
 
 function handleOutsideClick(event)
 {
-  if(event.target !== dots)
+  if(event.target !== dots || event.target !==cancelBtn)
   {
     let flag =0;
     for(let i=0; i<6; i++)

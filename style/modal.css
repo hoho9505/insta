@@ -40,3 +40,7 @@
   color : red;
   font-weight : 600;
 }
+
+.cancelbox{
+  cursor : pointer;
+}
