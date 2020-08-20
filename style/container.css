@@ -49,7 +49,7 @@ body{
 }
 
 .fa-heart:active {
-  transform: scale(0.5);
+  transform: scale(0.65);
 }
 
 .fas.fa-heart {
